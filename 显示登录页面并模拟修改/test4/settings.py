@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'test4.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yj1',
+        'NAME': '***',
         'USER': 'root',
-        'PASSWORD': '..123AAbb',
+        'PASSWORD': '******',
         'HOST': 'localhost',
         'PORT': 3306,
     }
@@ -109,9 +109,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-zhans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
